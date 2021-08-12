@@ -1,0 +1,41 @@
+.container-inicio {
+    font-family: 'Zilla Slab', serif;
+}
+
+.bienvenida {
+    font-family: 'Zilla Slab', serif;
+    color: $font-main-color;
+    font-size: 20px;
+    text-align: center;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.bienvenida a {
+    color: $font-main-color;
+    text-decoration: none;
+}
+
+.bienvenida a:hover {
+    font-family: 'Zilla Slab', serif;
+    color: black;
+    text-decoration: none;
+    background-color: $main-color;
+}
+
+.bienvenida p {
+    font-family: $font-bodytext;
+}
+
+#inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#inicio img {
+    margin-top: 150px;
+}
+

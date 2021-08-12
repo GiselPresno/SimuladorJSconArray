@@ -1,0 +1,55 @@
+
+
+#contacto p {
+    font-family: $font-bodytext;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-form {
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+    margin: 0 0 30px 0;
+    padding: 15px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: $main-color;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    width: 99%;
+    padding: 7px;
+}
+
+.form-row label {
+    margin: 15px 0;
+}
+
+.form-row textarea {
+    width: 99%;
+    height: 50px;
+    padding: 5px;
+    background-color: $main-color;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-family: 'Zilla Slab', serif;
+}
+
+#contacto button {
+    background-color: pink;
+    border: pink;
+}

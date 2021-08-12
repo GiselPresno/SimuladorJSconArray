@@ -1,0 +1,50 @@
+#nuestra-filosofia {
+    font-family: 'Zilla Slab', serif;
+}
+
+#nuestra-filosofia h2 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;    
+}
+
+#nuestra-filosofia .filo-desc {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: $font-bodytext;
+}
+
+.filo-container {
+    max-width:1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.filler-filo1{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/writing.png);
+    position: relative;
+    top: 30px;
+    right: -50px;
+    background-repeat: no-repeat;
+}
+
+.filler-filo2{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/pink-background.png);
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+}
+
+.filo-container-bis {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

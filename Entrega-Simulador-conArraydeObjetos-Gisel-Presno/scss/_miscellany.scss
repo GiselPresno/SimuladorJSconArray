@@ -1,0 +1,68 @@
+
+.heading {
+    background-color: $main-color;
+    color: white;
+    padding: 15px 0 15px 0;
+    font-size: 50px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.container {
+    max-width:1200px;
+    margin: auto;
+}
+
+body {
+    background-color: white;
+    color: $font-main-color;
+}
+
+footer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: $font-main-color;
+    font-family: $font-bodytext;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    color: $font-main-color;
+}
+
+.font-color {
+    color: $font-main-color;
+}
+
+
+.navigation {
+    font-family: 'Zilla Slab', serif;
+    color: $font-main-color;
+}
+
+.navigation:hover {
+    color: pink;
+}
+
+.navigationbar {
+    position: fixed;
+    background-color: white;
+}
+
+.search-button {
+    border: black;
+    color: $font-main-color;
+}
+
+
+.search-button:hover {
+    background-color: black;
+    color: pink;
+}

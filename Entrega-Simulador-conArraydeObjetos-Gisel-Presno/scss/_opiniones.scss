@@ -1,0 +1,23 @@
+#opiniones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#opiniones h5 {
+    font-family: 'Zilla Slab', serif;
+}
+
+#opiniones p {
+    font-family: $font-bodytext;
+}
+
+#opiniones {
+    max-width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
