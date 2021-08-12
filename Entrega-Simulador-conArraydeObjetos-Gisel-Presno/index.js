@@ -6,24 +6,9 @@ function Product(id, name, price) {
     this.price = price
 }
 
-const products = [
-    {id: 100,
-    name: traducción,
-    precio: 10
-    },
-    {id: 200,
-    name: transcripción,
-    precio: 200
-    },
-    {id: 300,
-    name: subtitulado,
-    precio: 220
-    }
-]
-
 let product1 = new Product(100, "traducción", 10)
-let product2 = new Product(200, "", 200)
-let product3 = new Product(300, "", 220)
+let product2 = new Product(200, "transcripción", 200)
+let product3 = new Product(300, "subtitulado", 220)
 
 let servicio = parseInt(prompt("¡Bienvenid@, "+nombre +"! Ingrese por favor el código del servicio a solicitar (100 para traducciones, 200 para transcripciones y 300 para subtitulados):"))
 
